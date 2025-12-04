@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stephens Family | Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="logo">Stephens Family</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Gallery</h1>
+    <p>A simple place to share photos from trips, projects, and everyday life.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container gallery-grid">
+    <!-- Replace these placeholders with real images later -->
+    <div class="gallery-item">
+      <div class="gallery-placeholder">Photo 1</div>
+      <p>Short caption for this photo.</p>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">Photo 2</div>
+      <p>Short caption for this photo.</p>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">Photo 3</div>
+      <p>Short caption for this photo.</p>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-placeholder">Photo 4</div>
+      <p>Short caption for this photo.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Stephens-AZ.us</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
