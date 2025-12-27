@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header class="site-header">
   <div class="container">
     <div class="logo">Stephens Family</div>
@@ -19,49 +20,46 @@
   </div>
 </header>
 
-<section class="page-header">
-  <div class="container">
-    <h1>About the Stephens Family</h1>
-    <p>This page is a quick overview of who we are, where we live, and what we care about.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container grid-2">
-    <div>
-      <h2>Who we are</h2>
-      <p>Replace this text with your own story: where you grew up, how long you’ve been in Arizona, what your family looks like today, etc.</p>
-      <p>You can keep this as simple or detailed as you want. Think of it as a friendly introduction for anyone visiting the site.</p>
+<main>
+  <section class="page-header">
+    <div class="container">
+      <h1>About This Site</h1>
+      <p>A simple place to share life, projects, and the things we enjoy.</p>
     </div>
-    <div>
-      <h2>What we do</h2>
-      <p>Use this area for work, hobbies, or big interests: road trips, off-roading, RV, gardening, sports, or anything else.</p>
-      <p>Later you can split this into more pages if you decide you want more detail.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="section alt">
-  <div class="container">
-    <h2>Our values</h2>
-    <p>Short bullets work well here. For example:</p>
-    <ul>
-      <li>Family first</li>
-      <li>Hard work and reliability</li>
-      <li>Enjoying the outdoors</li>
-      <li>Always learning something new</li>
-    </ul>
-  </div>
-</section>
+  <section class="section">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>We live in Northern Arizona and created this site as a personal place to share our projects, hobbies, and parts of everyday life. Nothing fancy — just simple and real.</p>
+
+          <p>When we're not working, you might find us spending time with family and pets, working on projects, or getting outdoors whenever possible.</p>
+        </div>
+
+        <div class="card">
+          <h3>What This Site Is</h3>
+          <ul>
+            <li>A home for photos</li>
+            <li>A place to share projects</li>
+            <li>A simple personal hub — nothing commercial</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
 <footer class="site-footer">
   <div class="container">
-    <p>© <span id="year"></span> Stephens-AZ.us</p>
+    <p>© <span id="year"></span> Stephens-AZ.com</p>
   </div>
 </footer>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+
 </body>
 </html>
