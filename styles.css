@@ -56,9 +56,10 @@ a {
 /* Hero */
 
 .hero {
-  background: linear-gradient(135deg, #0070c9, #00a0b6);
-  color: #fff;
-  padding: 3rem 0;
+  background: url('flagstaff-banner.jpeg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
 }
 
 .hero h1 {
